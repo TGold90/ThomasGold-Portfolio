@@ -17,6 +17,7 @@ body {
 
 header {
     display: flex;
+    /* flex-wrap: wrap; */
     position: fixed;
     justify-content: space-between;
     align-items: center;
@@ -55,9 +56,10 @@ main {
 }
 
 /*borrowed the grid-template-column idea from Scott Casey*/
-.main-section {
+.about-section {
     display: grid;
-    gap
+    gap: 15px;
+    padding: 2%;
     grid-template-columns: 225px 1fr;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: var(--light);
@@ -65,39 +67,51 @@ main {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); 
 }
 
-.project-container {
+.main-section {
     display: grid;
-    flex-direction: column;
-    margin: 1em;
+    gap: 15px;
+    padding: 2%;
+    grid-template-columns: 225px 1fr;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: var(--light);
     border: solid 1px black;
-    gap: 5%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); 
+}
+
+
+.cards > section:first-of-type {
+    grid-column: span 2;
+}
+
+.Horiseon-div {
+    height: 300px;
+    overflow: hidden;
 }
 
 .horiseon {
-    height: 300px;
+    grid-column: 1;
+    width: 100%;
+    grid-column:
+    /* height: 300px;
     width: 200px;
     display: block;
-    text-align: center;
+    text-align: center; */
+} 
+
+.horiseon img {
+    width: 100%;
 }
 
-/* #About-Me {
-    width: 66%;
-    align-items: center;
-    position: relative;
-    left: 16.5%;
-    height: 150px;
-} */
-
-#Projects{
-    displ
-    margin: 1em;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-    background-size: cover;
-    background-position: center;
+.cards {
+ display: grid;
+ grid-template-columns: repeat(2,1fr);
+ gap: 15px;
 }
+
+.small-project {
+}
+
+
 
 #Contact{
     align-items: center;

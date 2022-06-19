@@ -10,14 +10,16 @@
     --dark: #3b3b4f;
     --lightbackground: #bfd3d6;
     --Verdana: Verdana, Geneva, Tahoma, sans-serif; 
+    --background-image: linear-gradient(#1515c2,#03012d);
 }
 
 body {
     height: 100%;
-    background-color: var(--dark);
+    background-color: #000025;
     color: var(--lighttext);
     display: flex;
     flex-direction: column;
+    background-image: var(--background-image)
 }
 
 header {

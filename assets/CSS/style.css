@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    scroll-padding-top: 200px;
 }
 
 :root {
@@ -13,12 +14,15 @@
 
 body {
     height: 100%;
-    background-color: var(--lightbackground);
+    background-color: var(--dark);
+    color: var(--lighttext);
+    display: flex;
+    flex-direction: column;
 }
 
 header {
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     position: fixed;
     justify-content: space-between;
     align-items: center;
@@ -26,13 +30,15 @@ header {
     width: 100%;
     padding: 60px;
     background-color: var(--dark);
-    height: 75px;
+    height: 200px;
     z-index: 2;  
+    border-bottom: solid var(--lightbackground) 5px;
 }
 
 header h1 {
     color: var(--lighttext);
     padding: 20px;
+    font-size: 42px;
 }
 
 nav a {
@@ -50,23 +56,24 @@ main {
     flex-wrap: wrap;
     width: 100%;
     flex-direction: column;
+    color: var(--light);
 }
 
 .nav-anchor {
-    height: 120px;
+    height: 200px;
 }
 
 /*borrowed the grid-template-column idea from Scott Casey*/
 
 .main-section {
     display: grid;
+    position: relative;
     gap: 25px;
     padding: 3%;
-    grid-template-columns: 350px 1fr;
+    grid-template-columns: 20% 1fr;
     font-family: var(--Verdana);
     color: var(--light);
-    border: solid 1px black;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); 
+    border-bottom: solid var(--lightbackground) 5px;
     text-align: center;
 }
 
@@ -84,10 +91,6 @@ main {
     grid-column: 1;
     width: 100%;
     z-index: 1;
-    /* height: 300px;
-    width: 200px;
-    display: block;
-    text-align: center; */
 } 
 
 .horiseon img {

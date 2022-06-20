@@ -153,11 +153,20 @@ contact h3 {
     font-style: bolder;
 }
 
+<<<<<<< HEAD
 .me-img {
  /* grid-column: 1; */
+=======
+.me > img {
+ grid-column: span 1;
+>>>>>>> d3e0f98a4061f2717804177b012d16f2ab59ec9c
  height: 300px;
 }
 
 .me {
+<<<<<<< HEAD
     align-items: center;
+=======
+    gap: 25px;
+>>>>>>> d3e0f98a4061f2717804177b012d16f2ab59ec9c
 }

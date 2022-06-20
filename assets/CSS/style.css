@@ -145,3 +145,11 @@ contact h3 {
     font-style: bolder;
 }
 
+.me > img {
+ grid-column: span 1;
+ height: 300px;
+}
+
+.me {
+    gap: 25px;
+}

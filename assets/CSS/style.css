@@ -28,7 +28,7 @@ header {
     position: fixed;
     justify-content: space-between;
     align-items: center;
-    font-family: var(--Verdana);  
+    font-family: 'Kdam Thmor Pro', sans-serif; 
     width: 100%;
     padding: 60px;
     background-color: var(--dark);
@@ -72,7 +72,7 @@ main {
     position: relative;
     gap: 25px;
     padding: 3%;
-    font-family: var(--Verdana);
+    font-family: 'Kdam Thmor Pro', sans-serif;
     color: var(--light);
     border-bottom: solid var(--lightbackground) 5px;
     text-align: start;
@@ -133,7 +133,7 @@ main {
     color: var(--lighttext);
     display: flex;
     margin: 1em;
-    font-family: var(--Verdana);
+    font-family: 'Kdam Thmor Pro', sans-serif;
     border: solid 1px black;  
     padding: 10px;
     margin-bottom: 15px;
@@ -153,20 +153,11 @@ contact h3 {
     font-style: bolder;
 }
 
-<<<<<<< HEAD
 .me-img {
  /* grid-column: 1; */
-=======
-.me > img {
- grid-column: span 1;
->>>>>>> d3e0f98a4061f2717804177b012d16f2ab59ec9c
  height: 300px;
 }
 
 .me {
-<<<<<<< HEAD
     align-items: center;
-=======
-    gap: 25px;
->>>>>>> d3e0f98a4061f2717804177b012d16f2ab59ec9c
 }

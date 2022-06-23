@@ -9,7 +9,7 @@
     --lighttext: rgb(228, 255, 248);
     --dark: #3b3b4f;
     --lightbackground: #bfd3d6;
-    --Verdana: Verdana, Geneva, Tahoma, sans-serif; 
+    --Kdam-Thmor-Pro: 'Kdam Thmor Pro', sans-serif; 
     --background-image: linear-gradient(#1515c2,#03012d);
 }
 
@@ -19,7 +19,8 @@ body {
     color: var(--lighttext);
     display: flex;
     flex-direction: column;
-    background-image: var(--background-image)
+    background-image: var(--background-image);
+    font-family: var(--Kdam-Thmor-Pro);
 }
 
 header {
@@ -28,9 +29,8 @@ header {
     position: fixed;
     justify-content: space-between;
     align-items: center;
-    font-family: 'Kdam Thmor Pro', sans-serif; 
     width: 100%;
-    padding: 60px;
+    padding: 50px;
     background-color: var(--dark);
     height: 200px;
     z-index: 2;  
@@ -70,11 +70,9 @@ main {
 
 .about-section {
     display: grid;
-    /* grid-template-columns: 1fr 1fr; */
     grid-template-columns: repeat(2,1fr);
     gap: 25px;
-    padding: 3%;
-    font-family: 'Kdam Thmor Pro', sans-serif;
+    padding: 2%;
     color: var(--light);
     border-bottom: solid var(--lightbackground) 5px;
     text-align: start;   
@@ -94,15 +92,13 @@ main {
 }
 
 .me-img {
-    /* grid-column: 1; */
     height: 300px;
    }
    
 .project-section {
     display: grid;
     gap: 25px;
-    padding: 3%;
-    font-family: 'Kdam Thmor Pro', sans-serif;
+    padding: 2%;
     color: var(--light);
     border-bottom: solid var(--lightbackground) 5px;
     text-align: start;
@@ -113,8 +109,6 @@ main {
     overflow: hidden;
     filter: brightness(50%);
     border-radius: 3px;
-    /* text-decoration: none; */
-    /* background-image: "assets/images/01-html-css-git-homework-demo.png"; */
 }
 
 .Horiseon-div:hover {
@@ -156,7 +150,6 @@ main {
     box-shadow: inset 0px 0px 10px rgb(102, 144, 236), 0 0 10px rgb(102, 144, 236);
   }
 
-/*inspiration taken from stack overflow*/
 .small-project > img {
   object-fit: cover;
   width: 100%;
@@ -170,9 +163,8 @@ main {
     color: var(--lighttext);
     display: flex;
     margin: 1em;
-    font-family: 'Kdam Thmor Pro', sans-serif;
     border: solid 1px black;  
-    padding: 20px;
+    padding: 2%;
     margin-bottom: 15px;
     position: sticky;
 }
@@ -186,12 +178,3 @@ main {
     padding-right: 15px;
 }
 
-
-.me img {
- /* grid-column: 1; */
- height: 300px;
-}
-
-.me {
-    text-align: center;
-}

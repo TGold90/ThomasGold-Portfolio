@@ -70,13 +70,27 @@ main {
 
 .about-section {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    /* grid-template-columns: 1fr 1fr; */
+    grid-template-columns: repeat(2,1fr);
     gap: 25px;
     padding: 3%;
     font-family: 'Kdam Thmor Pro', sans-serif;
     color: var(--light);
     border-bottom: solid var(--lightbackground) 5px;
     text-align: start;   
+}
+
+.about-section > h2 {
+    grid-row-start: 1;
+}
+
+.about-image-div {
+    grid-row-start: 2;
+    text-align: center;
+}
+
+.about-section > p {
+    grid-row-start: 2;
 }
 
 .me-img {
@@ -92,10 +106,6 @@ main {
     color: var(--light);
     border-bottom: solid var(--lightbackground) 5px;
     text-align: start;
-}
-
-.cards > section:first-of-type {
-    grid-column: span 2;
 }
 
 .Horiseon-div {
@@ -124,11 +134,14 @@ main {
 }
 
 
-
 .cards {
     display: grid;
      grid-template-columns: repeat(2,1fr);
      gap: 15px;
+}
+
+.cards > section:first-of-type {
+    grid-column: span 2;
 }
   
 .small-project {

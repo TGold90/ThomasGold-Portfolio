@@ -132,11 +132,6 @@ main {
     display: flex;
 }
 
-.project-title h3 {
-    /* display: flex; */
-}
-
-
 .cards {
     display: grid;
      grid-template-columns: repeat(2,1fr);
@@ -153,6 +148,7 @@ main {
     height: 200px;
     overflow: hidden;
     filter: brightness(50%);
+    border-radius: 3px;
 }
 
 .small-project:hover {
@@ -167,7 +163,39 @@ main {
 }
 
 .small-project1 {
+    display: flex;
+    grid-column: 1;
+    width: 100%;
+    background-size: 150%;
+    align-items: flex-end;
     background-image: url("../images/1mohammad-alizade-XgeZu2jBaVI-unsplash.jpg");
+}
+
+.small-project2 {
+    display: flex;
+    grid-column: 1;
+    width: 100%;
+    background-size: 150%;
+    align-items: flex-end;
+    background-image: url("../images/pexels-eduardo-soares-5499019.jpg");
+}
+
+.small-project3 {
+    display: flex;
+    grid-column: 1;
+    width: 100%;
+    background-size: 150%;
+    align-items: flex-end;
+    background-image: url("../images/4thought-catalog-EMX1eJ1BcgU-unsplash.jpg");
+}
+
+.small-project4 {
+    display: flex;
+    grid-column: 1;
+    width: 100%;
+    background-size: 150%;
+    align-items: flex-end;
+    background-image: url("../images/3philipp-katzenberger-iIJrUoeRoCQ-unsplash.jpg");
 }
 
 #Contact{

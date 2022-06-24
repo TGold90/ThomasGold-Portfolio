@@ -20,5 +20,7 @@ I adopted my original Grid layout from Scott Casey, a cohort from my coding boot
 <!-- Link to Scott Casey's GitHub-->
 
 <!-- Link to Deployed application -->
+- https://tgold90.github.io/ThomasGold-Portfolio/
+
 
 <!-- Screenshot of Finished product -->

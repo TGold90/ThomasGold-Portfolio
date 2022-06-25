@@ -16,7 +16,6 @@
 
 body {
     height: 100%;
-    background-color: #000025;
     color: var(--lighttext);
     display: flex;
     flex-direction: column;

@@ -26,4 +26,4 @@ I borrowed my original Grid layout idea from Scott Casey, another student in my 
 
 * [Link to Deployed Application](https://tgold90.github.io/ThomasGold-Portfolio/)
 
-<!-- Screenshot of Finished product -->
+![tgold90 github io_ThomasGold-Portfolio_ (1)](https://user-images.githubusercontent.com/104692375/175789240-dddb1b91-92fe-468a-998f-45998558966e.png)

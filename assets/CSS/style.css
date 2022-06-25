@@ -75,7 +75,9 @@ main {
     padding: 2%;
     color: var(--light);
     border-bottom: solid var(--lightbackground) 5px;
-    text-align: start;   
+    text-align: start; 
+    margin-left: 20px;
+    margin-right: 20px;  
 }
 
 .about-section > h2 {
@@ -102,6 +104,8 @@ main {
     color: var(--light);
     border-bottom: solid var(--lightbackground) 5px;
     text-align: start;
+    margin-left: 20px;
+    margin-right: 20px; 
 }
 
 .Horiseon-div {
@@ -126,10 +130,14 @@ main {
     background-image: url("../images/01-html-css-git-homework-demo.png");
     background-size: 150%;
     align-items: flex-end;
+    
 }    
 
 .project-title {
     display: flex;
+    background-color: var(--dark);
+    padding: 1%;
+    color: var(--lighttext);
 }
 
 .cards {
@@ -162,22 +170,14 @@ main {
   max-height: 100%;
 }
 
-.small-project1 {
-    display: flex;
-    grid-column: 1;
-    width: 100%;
-    background-size: 150%;
-    align-items: flex-end;
-    background-image: url("../images/1mohammad-alizade-XgeZu2jBaVI-unsplash.jpg");
-}
-
 .small-project2 {
     display: flex;
     grid-column: 1;
     width: 100%;
     background-size: 150%;
     align-items: flex-end;
-    background-image: url("../images/pexels-eduardo-soares-5499019.jpg");
+    background-image: url("../images/1mohammad-alizade-XgeZu2jBaVI-unsplash.jpg");
+    background-size: cover;
 }
 
 .small-project3 {
@@ -186,7 +186,8 @@ main {
     width: 100%;
     background-size: 150%;
     align-items: flex-end;
-    background-image: url("../images/4thought-catalog-EMX1eJ1BcgU-unsplash.jpg");
+    background-image: url("../images/peru-IMG_4526.jpeg");
+    background-size: cover;
 }
 
 .small-project4 {
@@ -195,7 +196,18 @@ main {
     width: 100%;
     background-size: 150%;
     align-items: flex-end;
+    background-image: url("../images/pexels-pixabay-65894.jpg");
+    background-size: cover;
+}
+
+.small-project5 {
+    display: flex;
+    grid-column: 1;
+    width: 100%;
+    background-size: 150%;
+    align-items: flex-end;
     background-image: url("../images/3philipp-katzenberger-iIJrUoeRoCQ-unsplash.jpg");
+    background-size: cover;
 }
 
 #Contact{

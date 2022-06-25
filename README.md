@@ -19,7 +19,8 @@ The images under projects are active links that will take the user to the deploy
 
 I borrowed my original Grid layout idea from Scott Casey, another student in my Bootcamp. I eventually changed the layout to something slightly different, but the original framework was borrowed almost directly from him. 
 
--Link to Scott Casey's GitHub: 
+* [Link to Scott Casey's GitHub]()
+
 
 ## Link and Screenshot
 

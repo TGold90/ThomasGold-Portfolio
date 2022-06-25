@@ -77,6 +77,7 @@ main {
     text-align: start; 
     margin-left: 20px;
     margin-right: 20px;  
+    line-height: 2;
 }
 
 .about-section > h2 {
@@ -89,7 +90,7 @@ main {
     display: inline;
 }
 
-.about-section > p {
+.about-me-p {
     grid-row-start: 2;
 }
 
@@ -107,7 +108,7 @@ main {
     margin-left: 20px;
     margin-right: 20px; 
 }
-
+/* this is the high levelgrid layout for all of the project cards*/
 .cards {
     display: grid;
      grid-template-columns: repeat(2,1fr);
@@ -125,10 +126,6 @@ main {
     filter: brightness(50%);
     border-radius: 3px;
     display: flex;
-}
-
-.Horiseon-div .project-title {
-    display: block;
 }
 
 .Horiseon-div:hover {
@@ -151,6 +148,7 @@ main {
     background-color: var(--dark);
     padding: 1%;
     color: var(--lighttext);
+    flex-direction: column;
 }
   
 .small-project {

@@ -11,7 +11,7 @@
     --dark: #3b3b4f;
     --lightbackground: #bfd3d6;
     --Kdam-Thmor-Pro: 'Kdam Thmor Pro', sans-serif; 
-    --background-image: linear-gradient(#2a2ad8,#05052e);
+    --background-image: linear-gradient(#2a2ad8,#020219);
 }
 
 body {
@@ -96,7 +96,10 @@ main {
 
 .me-img {
     height: 300px;
+    width: 100%;
+    object-fit: cover;
    }
+
 /*the project section has some minor grid differences from about-me so it's calle dout separately*/  
 .project-section {
     display: grid;

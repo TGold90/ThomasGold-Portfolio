@@ -99,7 +99,7 @@ main {
     object-fit: cover;
    }
 
-/*the project section has some minor grid differences from about-me so it's calle dout separately*/  
+/*the project section has some minor grid differences from about-me so it's called out separately*/  
 .project-section {
     display: grid;
     gap: 25px;
@@ -110,7 +110,7 @@ main {
     margin-left: 20px;
     margin-right: 20px; 
 }
-/* this is the high levelgrid layout for all of the project cards*/
+/* this is the high level grid layout for all of the project cards*/
 .cards {
     display: grid;
      grid-template-columns: repeat(2,1fr);
